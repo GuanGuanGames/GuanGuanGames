@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="灌灌游 GuanGuanGames — 游戏与开发工具 | PaperRig UE 插件" />
+  <meta name="theme-color" content="#0f1226" />
+  <title>灌灌游 | GuanGuanGames</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg" />
+  <script src="js/config.js" defer></script>
+  <script src="js/i18n.js" defer></script>
+  <script src="js/site.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.svg" alt="GuanGuanGames" class="brand-logo" />
+        <span class="brand-text" id="brand-text">灌灌游 <span class="en">GuanGuanGames</span></span>
+      </a>
+      <button class="nav-toggle" aria-label="切换菜单" aria-expanded="false">☰</button>
+      <nav class="nav" id="site-nav">
+        <a href="index.html" data-i18n="nav.home" class="active">首页</a>
+        <a href="products.html" data-i18n="nav.products">产品</a>
+        <a href="about.html" data-i18n="nav.about">关于我们</a>
+        <span class="divider"></span>
+        <div class="lang-switch" aria-label="Language">
+          <button data-setlang="zh-CN">中文</button>
+          <button data-setlang="en">EN</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1 id="hero-title">创造有温度的工具与游戏</h1>
+          <p id="hero-subtitle" class="muted">我们正在打造 <b>PaperRig</b> —— 面向 Unreal Engine 的工作流程增强插件。简单、可靠、高效。</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" id="cta-browse" href="products.html">浏览产品</a>
+            <a class="btn btn-outline" id="cta-docs" href="https://github.com/GuanGuanGames/PaperRigDocs"
+              target="_blank" rel="noopener">查看 PaperRig 文档</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <div class="halo"></div>
+          <div class="card glass">
+            <h3 id="hero-card-title">PaperRig</h3>
+            <p id="hero-card-sub">原生UE工作流的轻量级 2D 骨骼动画插件</p>
+            <ul class="list" id="hero-card-points">
+              <li>Interchange 管线适配</li>
+              <li>稳定的资源导入</li>
+              <li>面向团队的可扩展设计</li>
+            </ul>
+            <a class="btn btn-small" href="products.html" id="hero-card-cta">了解更多</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="home.whatWeDo.title">我们在做什么</h2>
+        <div class="features grid-3">
+          <div class="card">
+            <h3 data-i18n="home.whatWeDo.quality.title">专注品质</h3>
+            <p class="muted" data-i18n="home.whatWeDo.quality.desc">以开发者体验为中心，打磨每一个细节。</p>
+          </div>
+          <div class="card">
+            <h3 data-i18n="home.whatWeDo.docs.title">开放与文档</h3>
+            <p class="muted" data-i18n="home.whatWeDo.docs.desc">遵循可读、可维护、可扩展的工程实践。</p>
+          </div>
+          <div class="card">
+            <h3 data-i18n="home.whatWeDo.longterm.title">长期主义</h3>
+            <p class="muted" data-i18n="home.whatWeDo.longterm.desc">把时间花在真正重要的事情上。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div id="footer-copy">© 2025 灌灌游 GuanGuanGames</div>
+      <div class="muted">
+        <a id="footer-email" href="mailto:contact@guanguangames.com">contact@guanguangames.com</a> ·
+        <a id="footer-discord" href="https://discord.gg/KRcfrXtytn" target="_blank" rel="noopener">Discord</a> ·
+        <span id="footer-domain">guanguangames.com</span>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
