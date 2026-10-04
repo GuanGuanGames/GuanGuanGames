@@ -1,13 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#7C8CFF"/>
-      <stop offset="1" stop-color="#5BE4A8"/>
-    </linearGradient>
-  </defs>
-  <rect rx="48" ry="48" width="256" height="256" fill="url(#g)"/>
-  <g fill="#ffffff">
-    <path d="M83 178c-17-11-27-29-27-50 0-36 29-65 65-65 20 0 38 9 50 24l-18 14c-8-9-19-15-32-15-24 0-44 20-44 44 0 15 7 28 19 36l-13 12z" opacity=".95"/>
-    <path d="M170 78l-13 12c12 8 19 23 19 38 0 28-22 50-50 50-9 0-18-2-25-7l-16 13c12 8 27 12 42 12 42 0 76-34 76-76 0-17-6-34-17-46z" opacity=".95"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="350 150 566 800">
+  <title>GuanGuanGames portal</title>
+  <defs><linearGradient id="portal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c5fa3c"/><stop offset="1" stop-color="#d3ff56"/></linearGradient></defs>
+  <path fill="url(#portal)" d="M395 269 530 200 861 340 861 791 670 878 559 830 762 750 682 706 682 501 826 445 550 335 550 822 398 899Z"/>
 </svg>
